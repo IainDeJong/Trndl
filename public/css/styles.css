@@ -1,0 +1,134 @@
+/**
+ * styles.css
+ *
+ * Sets global CSS.
+ */
+ 
+
+
+.container
+{
+    /* center contents */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#logo
+{
+    /* surround with whitespace */
+    margin-bottom: 10px;
+    margin-top: 15px;
+    background-color: #3792A8;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    background-color: #3792A8;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#foo
+{
+    padding-left:28%; 
+    padding-right:0%;
+}
+
+#pil-l
+{
+    padding-left:5%; 
+    padding-right:5%;
+}
+
+#bar
+{
+    padding-left:0%; 
+    padding-right:0%;
+}
+
+#text
+{
+    vertical-align: middle;
+}
+
+#menu
+{
+    height: 60px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold; 
+    border-color: #9F411E;
+    background-color: #E18665;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+    padding: vertical-align;
+
+    text-align: center;
+    display:inline-block;
+
+}
+
+
+#middle .form-control
+{
+    /* center form controls */
+    /*display: inline-block;*/
+    
+    text-align: left;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#middle .form-control-lg
+{
+    /* center form controls */
+    /*display: inline-block;*/
+    
+    text-align: left;
+    text-align: top;
+    /* override Bootstrap's 100% width for form controls */
+    width: 50%;
+    height: 80px;
+}
+
+#middle 
+{
+    text-align: left;    
+    background-color: white;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #3792A8;
+}
+
+
